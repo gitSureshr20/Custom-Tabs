@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Work+Sans:wght@400;600;700&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  
+}
+body{
+    text-align: center;
+    background-color: #dcdde1;
+}
+body h1{
+    font-size: 50px;
+    color: #e84118;
+    margin-bottom: 40px;
+    padding: 1rem;
+}
+.button-wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.button-wraper button{
+    padding: .8rem 2rem;
+    border: none;
+    outline: none;
+    background-color: #0097e6;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.button-wraper button.active{
+    background-color: #192a56;
+}
+.content{
+    display: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.content.active{
+display: block;
+}
